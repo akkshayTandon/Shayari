@@ -1,8 +1,10 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# About
+ This project is a random hindi shayari generator.
+ 
+# File Structure
+ The file structure is as follows:
+ 1) `src`: This folder contains the all the components of the used in the project.
+ 2) `public`: This folder contains logo images used in the project.
+    
+# Deployment
+ Try the project [here](https://hindi-shayari.netlify.app/).
