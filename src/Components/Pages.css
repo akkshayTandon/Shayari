@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Lato&family=Merriweather&family=Noto+Sans:wght@500&family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Raleway&display=swap');
+html{
+    font-size: 62.5%;
+}
+*{
+    font-family: 'AR One Sans', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.card-body{
+    img{
+        height: 8rem;
+    }
+}
+
+.stack-btn-26 {
+    align-items: center;
+    background-clip: padding-box;
+    border: none;
+    background-color: #222;
+    font-size: 1.4rem;
+    font-weight: 500;
+    justify-content: center;
+    margin: rem 0;
+    height: 3.5rem;
+    padding: .6rem 1.6rem;
+    border-radius: .6rem;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.20);
+}
+.stack-btn-26 span {
+    position: relative; 
+    z-index: 1;
+}
+.stack-btn-26:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 390%;
+    width: 140%;
+    background: #6610f2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.stack-btn-26:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+
+.author{
+    position: absolute;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share{
+    font-size: 2rem;
+    position: absolute;
+    right: 0;
+    bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.insta{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2.5rem;
+}
+
+.card{
+    width: 40rem;
+}
+
+
+@media(width<500px){
+ .card{
+    width: 30rem;
+ }
+
+   
+}
+
+
