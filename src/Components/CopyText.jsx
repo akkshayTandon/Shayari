@@ -27,7 +27,7 @@ export default function Copytext({quote}){
       }
 return (
 <>
-<span onClick={handleCopyClick} className="share m-1"> <ion-icon name="share-outline"></ion-icon>
+<span onClick={handleCopyClick} className="share m-1"> <img src="/clipboard-outline.svg" alt="" />
 <span className="fs-5">{isCopied ? 'Copied!' : null}</span>
 </span>
 </>

@@ -21,7 +21,7 @@ export default function Pages({ quote, author, CallShayari, loader }) {
                 <p className="placeholder-glow ">
                   <span className="placeholder col-12"></span>
                 </p> :
-                <p className='card-title text-light fs-3'>{quote}</p>
+                <p className='card-title  fs-3' style={{color:"burlywood"}}>{quote}</p>
             }
             {
               loader ?
@@ -44,7 +44,7 @@ export default function Pages({ quote, author, CallShayari, loader }) {
                 <p className="placeholder-glow position-absolute end-0 me-3" style={{ width: "10rem" }}>
                   <span className="placeholder col-12"></span>
                 </p> :
-                <p className='card-title author text-light fs-4'> <ion-icon name="remove-outline"></ion-icon> {author}</p>
+                <p className='card-title author text-light fs-4'> - {author}</p>
             }
 
 
@@ -53,11 +53,11 @@ export default function Pages({ quote, author, CallShayari, loader }) {
           </div>
         </div>
 
-        {/* <span className="share m-1"> <ion-icon name="share-outline"></ion-icon></span> */}
         <Copytext quote={quote}/>
       </main>
 
-      <a href="https://www.instagram.com/farzivichar?igsh=NnV5NWFxNXR6NWxh" target="_blank" className="insta"> <ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="https://www.instagram.com/farzivichar?igsh=NnV5NWFxNXR6NWxh" target="_blank" className="insta">
+        <img src="/logo-instagram.svg" alt="insta" className='insta'/> </a>
 
     </>
   )
