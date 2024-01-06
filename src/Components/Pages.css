@@ -83,18 +83,20 @@ h1{
     align-items: center;
 }
 .share{
-    font-size: 2rem;
     position: absolute;
-    right: 0;
-    bottom: 1.5rem;
+    right: .5rem;
+    bottom: 2rem;
     cursor: pointer;
+    img{
+        height: 1.5rem;
+    }
 }
 
 .insta{
     position: absolute;
     top: 1rem;
     right: 1rem;
-    font-size: 2.5rem;
+    height: 3rem;
 }
 
 .card{
