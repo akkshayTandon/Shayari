@@ -38,22 +38,26 @@ function App() {
 
       <Pages quote={quote} author={author} CallShayari={CallShayari} loader={loader} />
 
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
-      <div class="firefly"></div>
+      
 
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+      <div className="firefly"></div>
+
+
+     
     </>
   )
 }

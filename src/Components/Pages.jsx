@@ -8,11 +8,21 @@ export default function Pages({ quote, author, CallShayari, loader }) {
 
   return (
     <>
+      <nav>
+        <a href="https://github.com/akkshayTandon/farzi-vichar-api" target='_blank' rel='noreferrer'>
+          <img src="/github.svg" alt='github' />
+        </a>
+
+        <a href="https://www.instagram.com/farzivichar?igsh=NnV5NWFxNXR6NWxh" target="_blank" rel='noreferrer' >
+          <img src="/logo-instagram.svg" alt="instagram" />
+        </a>
+      </nav>
+
       <main>
-        <div className="card h-100 bg-transparent  border-0" >
+        <div className="card  bg-transparent  border-0 " >
           <div className="card-body">
             <h1 className="card-title text-light"><img src="/shayarilogo.png" alt="" /></h1>
-            
+
             <hr className='text-light' />
 
 
@@ -21,7 +31,7 @@ export default function Pages({ quote, author, CallShayari, loader }) {
                 <p className="placeholder-glow ">
                   <span className="placeholder col-12"></span>
                 </p> :
-                <p className='card-title  fs-3' style={{color:"burlywood"}}>{quote}</p>
+                <p className='card-title  fs-3' style={{ color: "burlywood" }}>{quote}</p>
             }
             {
               loader ?
@@ -53,11 +63,15 @@ export default function Pages({ quote, author, CallShayari, loader }) {
           </div>
         </div>
 
-        <Copytext quote={quote}/>
+        <Copytext quote={quote} />
       </main>
 
-      <a href="https://www.instagram.com/farzivichar?igsh=NnV5NWFxNXR6NWxh" target="_blank" className="insta">
-        <img src="/logo-instagram.svg" alt="insta" className='insta'/> </a>
+      <footer className=' position-absolute bottom-0 d-flex justify-content-center align-items-center'>
+        | <span className='pe-2 ps-2 d-flex justify-content-center align-items-center gap-3'>Made by:
+        <a href="https://hardiksingh-hsm.netlify.app/" target='_blank' rel='noreferrer'>@Hardik Singh</a> &
+        <a href="https://akkshaytandon.github.io/MyLinkTree/" target='_blank' rel='noreferrer'>@Akkshay Tandon</a>
+        </span> |
+      </footer>
 
     </>
   )
