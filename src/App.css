@@ -12,7 +12,9 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  width: 100%;
 }
+
 
 
 
@@ -1333,5 +1335,13 @@ body{
   5% {
     opacity: 1;
     box-shadow: 0 0 2vw 0.4vw yellow;
+  }
+}
+
+
+
+@media(width<450px){
+  footer{
+    /* width: 100vw; */
   }
 }
