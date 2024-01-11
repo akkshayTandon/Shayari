@@ -1,0 +1,20 @@
+{
+    "name": "Random Hindi Shayari",
+    "short_name": "Shayari Generator",
+    "description": "Get a new shayari on each click with our app.",
+    "categories": ["social", "productivity"],
+    "icons": [
+        {
+            "src": "/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone"
+}
