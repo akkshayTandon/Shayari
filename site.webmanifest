@@ -5,16 +5,16 @@
     "categories": ["social", "productivity"],
     "icons": [
         {
-            "src": "/icons/android-chrome-192x192.png",
+            "src": "/192px.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/icons/android-chrome-384x384.png",
-            "sizes": "384x384",
+            "src": "/310px.png",
+            "sizes": "310x310",
             "type": "image/png"
         }
     ],
-    "start_url": "/index.html",
+    "start_url": "/",
     "display": "standalone"
 }
