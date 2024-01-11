@@ -12,6 +12,7 @@ export default function Pages({ quote, author, CallShayari, loader }) {
         <a href="https://github.com/akkshayTandon/farzi-vichar-api" target='_blank' rel='noreferrer'>
           <img src="/github.svg" alt='github' />
         </a>
+       
 
         <a href="https://www.instagram.com/farzivichar?igsh=NnV5NWFxNXR6NWxh" target="_blank" rel='noreferrer' >
           <img src="/logo-instagram.svg" alt="instagram" />
@@ -66,11 +67,18 @@ export default function Pages({ quote, author, CallShayari, loader }) {
         <Copytext quote={quote} />
       </main>
 
-      <footer className=' position-absolute bottom-0 d-flex justify-content-center align-items-center'>
-        | <span className='pe-2 ps-2 d-flex justify-content-center align-items-center gap-3'>Made by:
+     
+      <footer className=' position-absolute bottom-0 '>
+        <div className=' d-flex justify-content-center align-items-center gap-3'>|<span>Made by :</span>
         <a href="https://hardiksingh-hsm.netlify.app/" target='_blank' rel='noreferrer'>@Hardik Singh</a> &
         <a href="https://akkshaytandon.github.io/MyLinkTree/" target='_blank' rel='noreferrer'>@Akkshay Tandon</a>
-        </span> |
+        |
+        </div>
+        <div className=' ext d-flex justify-content-center align-items-center mt-3'>
+        <a href="https://microsoftedge.microsoft.com/addons/detail/random-shayari-generator/niaelonohcpmicnibpfegdkndgciphbe" target='_blank' rel='noreferrer' className=' d-flex justify-content-center align-items-center gap-1'>Get as an Extension
+        <img src="/extension.svg" className='cls-2' alt="ext"/>
+        </a>
+        </div>
       </footer>
 
     </>
