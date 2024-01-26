@@ -38,8 +38,6 @@ function App() {
 
       <Pages quote={quote} author={author} CallShayari={CallShayari} loader={loader} />
 
-      
-
       <div className="firefly"></div>
       <div className="firefly"></div>
       <div className="firefly"></div>
@@ -52,11 +50,6 @@ function App() {
       <div className="firefly"></div>
       <div className="firefly"></div>
       <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-      <div className="firefly"></div>
-
-
      
     </>
   )
