@@ -27,7 +27,7 @@ export default function Copytext({quote}){
       }
 return (
 <>
-<span onClick={handleCopyClick} className="share m-1"> <img src="/clipboard-outline.svg" alt="" />
+<span onClick={handleCopyClick} className="copy m-1 d-lg-none d-block"> <img src="/clipboard-outline.svg" alt="copy" />
 <span className="fs-5">{isCopied ? 'Copied!' : null}</span>
 </span>
 </>

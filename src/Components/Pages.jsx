@@ -1,6 +1,7 @@
 
 import Copytext from './CopyText'
 import './Pages.css'
+import Share from './Share'
 export default function Pages({ quote, author, CallShayari, loader }) {
 
 
@@ -22,7 +23,7 @@ export default function Pages({ quote, author, CallShayari, loader }) {
       <main>
         <div className="card  bg-transparent  border-0 " >
           <div className="card-body">
-            <h1 className="card-title text-light"><img src="/shayarilogo.png" alt="" /></h1>
+            <h1 className="card-title text-light fw-bold">Quote</h1>
 
             <hr className='text-light' />
 
@@ -60,11 +61,12 @@ export default function Pages({ quote, author, CallShayari, loader }) {
 
 
 
-            <button onClick={CallShayari} type="button" className="stack-btn-26 mt-5"><span>अगली शायरी</span></button>
+            <button onClick={CallShayari} type="button" className="stack-btn-26 mt-5"><span>Next</span></button>
           </div>
         </div>
 
         <Copytext quote={quote} />
+        <Share quote={quote}/>
       </main>
 
      
